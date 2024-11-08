@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "app/(pages)/Aide.tsx", "app/(pages)/Contribution.tsx", "app/(pages)/Dettes.tsx", "app/(pages)/Emprunt.tsx", "app/(pages)/Epargne.tsx", "app/(pages)/Exercice.tsx", "app/(pages)/Remboursement.tsx", "app/(pages)/Sessions.tsx"  ]
+}
